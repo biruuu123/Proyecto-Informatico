@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitmind AI — Entrena tu mente con IA</title>
+  <meta name="description" content="Fitmind AI: entrenamientos cognitivos, análisis y bienestar mental con inteligencia artificial. Plan gratuito y plan Pro.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Header y navegación -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <img src="assets/logo.svg" alt="Logo Fitmind AI">
+        <span class="title">Fitmind AI</span>
+      </a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+      <button class="nav-toggle" data-toggle="nav" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menú">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú móvil">
+      <div class="inner">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="content">
+        <span class="eyebrow">Bienestar mental · IA · productividad</span>
+        <h1>Entrena tu mente con Fitmind AI</h1>
+        <p>Herramientas inteligentes para foco, memoria y claridad mental. Diseñado para estudiantes, profesionales y atletas cognitivos.</p>
+        <div class="actions">
+          <a class="btn primary" href="#planes">Probar gratis</a>
+          <a class="btn" href="services.html">Ver servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes (gratis y pro) -->
+  <section id="planes" class="plans">
+    <div class="container">
+      <div class="grid-2">
+        <div class="card plan">
+          <div class="body">
+            <h3>Plan Gratuito</h3>
+            <p class="lead">Ideal para comenzar. Acceso a rutinas básicas y seguimiento semanal.</p>
+            <div class="price">$0</div>
+            <ul>
+              <li>Rutinas cognitivas esenciales</li>
+              <li>Estadísticas de progreso</li>
+              <li>Consejos de bienestar</li>
+            </ul>
+            <div class="actions" style="margin-top: 12px;">
+              <a class="btn" href="https://github.com/fitmind-ai" target="_blank" rel="noopener">Obtener</a>
+            </div>
+          </div>
+        </div>
+        <div class="card plan">
+          <div class="body">
+            <h3>Plan Pro</h3>
+            <p class="lead">Entrenamientos avanzados, IA personalizada y reportes detallados.</p>
+            <div class="price">$5.99 <span style="font-size:14px; color: var(--muted);">/ mes</span></div>
+            <ul>
+              <li>Rutinas premium y personalización</li>
+              <li>Análisis mental con IA</li>
+              <li>Soporte prioritario</li>
+            </ul>
+            <p class="lead" style="margin-top:8px;">Anual: $59.99 — ahorrás 2 meses</p>
+            <div class="actions" style="margin-top: 12px;">
+              <a class="btn primary" href="contact.html">Solicitar acceso</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section class="sponsors">
+    <div class="container">
+      <h3>Patrocinadores</h3>
+      <div class="grid-3">
+        <div class="item"><img src="assets/sponsors/herbalife.svg" alt="Sponsor Herbalife"></div>
+        <div class="item"><img src="assets/sponsors/adidas.svg" alt="Sponsor adidas"></div>
+        <div class="item"><img src="assets/sponsors/fitbit.svg" alt="Sponsor Fitbit"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="links">
+        <a href="mailto:fitmind.ai@gmail.com" aria-label="Enviar correo">Gmail</a>
+        <a href="https://instagram.com/fitmind.ai" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+      </div>
+      <div class="meta">
+        Publicado: <span id="publishedDate">—</span> · © <span id="currentYear"></span> Fitmind AI
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

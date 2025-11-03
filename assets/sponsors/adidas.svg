@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="80" viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="adidas">
+  <rect x="2" y="2" width="216" height="76" rx="14" fill="#0b1220" stroke="#0b1220" />
+  <!-- tres franjas inclinadas minimalistas -->
+  <rect x="30" y="42" width="24" height="12" transform="rotate(-25 30 42)" fill="#e5e7eb" />
+  <rect x="60" y="36" width="24" height="12" transform="rotate(-25 60 36)" fill="#e5e7eb" />
+  <rect x="90" y="30" width="24" height="12" transform="rotate(-25 90 30)" fill="#e5e7eb" />
+  <text x="130" y="50" font-family="Inter, Arial" font-size="26" font-weight="700" fill="#e5e7eb">adidas</text>
+</svg>

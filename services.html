@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servicios — Fitmind AI</title>
+  <meta name="description" content="Catálogo de servicios y entrenamientos de Fitmind AI.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <img src="assets/logo.svg" alt="Logo Fitmind AI"><span class="title">Fitmind AI</span>
+      </a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html" aria-current="page">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+      <button class="nav-toggle" data-toggle="nav" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menú"><span class="bars" aria-hidden="true"></span></button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú móvil">
+      <div class="inner">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <h2>Catálogo de Servicios</h2>
+      <p class="lead">Listado de entrenamientos y herramientas de Fitmind AI.</p>
+
+      <div class="grid-3 section">
+        <div class="card"><div class="body">
+          <h3>Entrenamientos Cognitivos</h3>
+          <p>Rutinas guiadas para foco, memoria y velocidad de procesamiento.</p>
+          <img src="assets/sponsors/herbalife.svg" alt="Ilustración de entrenamiento cognitivo (Herbalife)" />
+        </div></div>
+        <div class="card"><div class="body">
+          <h3>Meditaciones Guiadas</h3>
+          <p>Sesiones breves con técnicas de respiración y atención plena.</p>
+          <img src="assets/sponsors/adidas.svg" alt="Ilustración de meditaciones (adidas)" />
+        </div></div>
+        <div class="card"><div class="body">
+          <h3>Análisis con IA</h3>
+          <p>Feedback personalizado basado en tus interacciones y progresos.</p>
+          <img src="assets/sponsors/fitbit.svg" alt="Ilustración de análisis con IA (Fitbit)" />
+        </div></div>
+      </div>
+
+      <div class="grid-2 section">
+        <div class="card"><div class="body">
+          <h3>Plan Gratuito</h3>
+          <p>Acceso inicial con rutinas esenciales y estadísticas semanales.</p>
+          <a class="btn" href="https://github.com/fitmind-ai" target="_blank" rel="noopener">Obtener</a>
+        </div></div>
+        <div class="card"><div class="body">
+          <h3>Plan Pro</h3>
+          <p>Capas premium, personalización avanzada y soporte prioritario.</p>
+          <p class="lead"><strong>$5.99</strong> / mes</p>
+          <p class="lead">Anual: <strong>$59.99</strong> — ahorrás 2 meses</p>
+          <a class="btn primary" href="contact.html">Solicitar acceso</a>
+        </div></div>
+      </div>
+
+      <div class="section">
+        <h3>Multimedia</h3>
+        <p>Video de presentación (referencial):</p>
+        <div class="card"><div class="body">
+          <iframe style="width:100%; height:320px; border:0; border-radius:12px;" src="https://www.youtube.com/embed/DWcJFNfaw9c" title="Presentación Fitmind AI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="links">
+        <a href="mailto:fitmind.ai@gmail.com">Gmail</a>
+        <a href="https://instagram.com/fitmind.ai" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="meta">© <span id="currentYear"></span> Fitmind AI</div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

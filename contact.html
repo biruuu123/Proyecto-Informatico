@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto — Fitmind AI</title>
+  <meta name="description" content="Contacto con el equipo de Fitmind AI.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <img src="assets/logo.svg" alt="Logo Fitmind AI"><span class="title">Fitmind AI</span>
+      </a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html" aria-current="page">Contacto</a>
+      </nav>
+      <button class="nav-toggle" data-toggle="nav" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menú"><span class="bars" aria-hidden="true"></span></button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú móvil">
+      <div class="inner">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p class="lead">Completá el formulario o escribinos por redes. Nos encanta leer tus ideas.</p>
+
+      <div class="grid-2 section">
+        <div class="card"><div class="body">
+          <form id="contactForm">
+            <div class="form-row">
+              <div>
+                <label for="nombre">Nombre</label>
+                <input class="input" id="nombre" name="nombre" required placeholder="Tu nombre">
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input class="input" id="email" name="email" type="email" required placeholder="tu@correo.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="asunto">Asunto</label>
+                <input class="input" id="asunto" name="asunto" placeholder="Motivo de contacto">
+              </div>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Contanos en qué podemos ayudarte"></textarea>
+              </div>
+            </div>
+            <div class="actions" style="margin-top: 12px;">
+              <button class="btn primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div></div>
+        <div class="card"><div class="body">
+          <h3>Datos de contacto</h3>
+          <p>También podés escribirnos por:</p>
+          <p><a href="mailto:fitmind.ai@gmail.com">fitmind.ai@gmail.com</a></p>
+          <p><a href="https://instagram.com/fitmind.ai" target="_blank" rel="noopener">Instagram</a></p>
+        </div></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="links">
+        <a href="mailto:fitmind.ai@gmail.com">Gmail</a>
+        <a href="https://instagram.com/fitmind.ai" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="meta">© <span id="currentYear"></span> Fitmind AI</div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="80" viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Herbalife">
+  <rect x="2" y="2" width="216" height="76" rx="14" fill="#0b1220" stroke="#0b1220" />
+  <circle cx="50" cy="40" r="26" fill="none" stroke="#e5e7eb" stroke-width="3" />
+  <!-- hojas minimalistas -->
+  <path d="M50 24c-6 6-8 12-8 18 0 6 2 12 8 18c6-6 8-12 8-18 0-6-2-12-8-18z" fill="#2e7d32" />
+  <path d="M38 40c6 2 12 2 24 0c-6-2-12-2-24 0z" fill="#2e7d32" opacity="0.9" />
+  <text x="90" y="47" font-family="Inter, Arial" font-size="24" font-weight="700" fill="#e5e7eb">HERBALIFE</text>
+</svg>

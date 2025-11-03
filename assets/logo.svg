@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fitmind AI Logo">
+  <!-- Fondo transparente -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Silueta minimalista de cerebro -->
+  <g transform="translate(10,10)">
+    <path d="M40 10c-12 0-22 10-22 22 0 8 4 12 4 12s-6 4-6 12c0 10 8 18 18 18h40c10 0 18-8 18-18 0-8-6-12-6-12s4-4 4-12c0-12-10-22-22-22-6 0-10 2-14 6-4-4-8-6-14-6z"
+          fill="none" stroke="url(#g)" stroke-width="3" />
+    <!-- Pliegues del cerebro -->
+    <path d="M32 34c6-4 12-4 18 0M58 34c6-4 12-4 18 0M32 50c6-4 12-4 18 0M58 50c6-4 12-4 18 0" 
+          stroke="url(#g)" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Wordmark: FIT -->
+  <g transform="translate(14,92)">
+    <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#e5e7eb">FIT</text>
+    <text x="70" y="0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#94a3b8">mind</text>
+    <text x="118" y="0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#22d3ee">AI</text>
+  </g>
+</svg>

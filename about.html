@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiénes somos — Fitmind AI</title>
+  <meta name="description" content="Conocé la misión, visión y valores de Fitmind AI.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <img src="assets/logo.svg" alt="Logo Fitmind AI"><span class="title">Fitmind AI</span>
+      </a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+      <button class="nav-toggle" data-toggle="nav" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menú"><span class="bars" aria-hidden="true"></span></button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menú móvil">
+      <div class="inner">
+        <a href="index.html">Home</a>
+        <a href="about.html">Quiénes Somos</a>
+        <a href="services.html">Servicios</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <h2>Quiénes somos</h2>
+      <p class="lead">Somos un equipo interdisciplinario que combina neurociencia, tecnología y diseño para potenciar el bienestar mental mediante inteligencia artificial.</p>
+
+      <div class="grid-3 section">
+        <div class="card"><div class="body">
+          <h3>Misión</h3>
+          <p>Facilitar entrenamientos y herramientas accesibles para mejorar el foco, la memoria y la claridad mental, promoviendo hábitos saludables.</p>
+        </div></div>
+        <div class="card"><div class="body">
+          <h3>Visión</h3>
+          <p>Ser la plataforma referente en bienestar cognitivo asistido por IA para estudiantes, profesionales y comunidades.</p>
+        </div></div>
+        <div class="card"><div class="body">
+          <h3>Valores</h3>
+          <ul>
+            <li>Privacidad y ética de datos</li>
+            <li>Accesibilidad y inclusión</li>
+            <li>Rigor científico y mejora continua</li>
+          </ul>
+        </div></div>
+      </div>
+
+      <div class="section">
+        <h3>Integrantes y roles</h3>
+        <p><strong>Raiter Tomas</strong> — Dueño</p>
+        <p><strong>Santa Cruz</strong> — Dueño</p>
+      </div>
+
+      <div class="section">
+        <h3>Fecha de publicación</h3>
+        <p>Este sitio fue publicado el <strong id="publishedDate">—</strong>.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="links">
+        <a href="mailto:fitmind.ai@gmail.com">Gmail</a>
+        <a href="https://instagram.com/fitmind.ai" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="meta">© <span id="currentYear"></span> Fitmind AI</div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
