@@ -32,29 +32,25 @@ const $$ = (sel, parent = document) => Array.from(parent.querySelectorAll(sel));
 })();
 
 // Formulario de contacto funcional via mailto
+// === CÓDIGO DEL FORMULARIO (SIMULACIÓN DE ÉXITO) ===
 (function initContactForm(){
   const form = $('#contactForm');
-  if(!form) return;
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const nombre = $('#nombre')?.value?.trim() || '';
-    const email = $('#email')?.value?.trim() || '';
-    const asunto = $('#asunto')?.value?.trim() || 'Consulta Fitmind AI';
-    const mensaje = $('#mensaje')?.value?.trim() || '';
+  if (!form) return;
 
-    // Construir cuerpo del mensaje
-    const body = encodeURIComponent(
-      `Nombre: ${nombre}\nEmail: ${email}\n\nMensaje:\n${mensaje}`
-    );
-    const subject = encodeURIComponent(asunto);
+  form.addEventListener('submit', function(event) {
+    // 1. PREVENIMOS que la página se recargue
+    event.preventDefault(); 
 
-    // Dirección oficial (editar en producción si cambia)
-    const to = 'fitmind.ai@gmail.com';
+    // 2. Buscamos el 'padre' del formulario (el <div class="body">)
+    const formContainer = form.parentElement;
 
-    // Abrir cliente de correo
-    window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+    // 3. Reemplazamos el formulario por el mensaje de éxito
+    if (formContainer) {
+      formContainer.innerHTML = '<h3>¡Enviado con éxito!</h3><p>Gracias por tu mensaje. Hemos recibido tu consulta.</p>';
+    }
   });
 })();
+// === FIN DEL CÓDIGO DEL FORMULARIO ===
 
 // Documentación: índice activo y "paginación" por secciones (Sección X/Y)
 (function initDocsTOC(){
@@ -77,4 +73,6 @@ const $$ = (sel, parent = document) => Array.from(parent.querySelectorAll(sel));
   }, { rootMargin: '-30% 0px -50% 0px', threshold: [0.25, 0.5, 0.75, 1] });
 
   sections.forEach(s => obs.observe(s));
+
+  
 })();
